@@ -14,5 +14,4 @@ class Solution:
             odd = expand(i, i)
             even = expand(i, i+1)
             longest = max(longest, odd, even, key=len)
-
         return longest
